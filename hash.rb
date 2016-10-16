@@ -48,10 +48,6 @@ words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
           'fowl', 'veil', 'wolf', 'diet', 'vile', 'edit', 'tide',
           'flow', 'neon']
 
-#7.
-words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
-          'fowl', 'veil', 'wolf', 'diet', 'vile', 'edit', 'tide',
-          'flow', 'neon']
 new_words = {}
 
 result = {}
@@ -70,6 +66,12 @@ result.each do |k, v|
   puts "------"
   p v
 end
+
+#7. Symbol vs String as key
+
+#8 B. There is no method called keys for Array objects.
+
+
 
 
 
